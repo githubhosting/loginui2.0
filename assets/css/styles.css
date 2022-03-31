@@ -228,7 +228,7 @@ img {
 .login__forms {
   position: relative;
   height: 368px;
-  top: 2.5rem;
+  top: 2rem;
 }
 
 .login__registre,
@@ -406,7 +406,7 @@ img {
   .login__forms {
     width: 348px;
     justify-self: center;
-    top: 2.5rem;
+    top: 2rem;
   }
 }
 
