@@ -58,19 +58,9 @@ img {
 
 /* =====Background===== */
 .area {
-  background: #0052d4; 
-  background: -webkit-linear-gradient(
-    to bottom,
-    #6fb1fc,
-    #4364f7,
-    #0052d4
-  ); 
-  background: linear-gradient(
-    to bottom,
-    #6fb1fc,
-    #4364f7,
-    #0052d4
-  ); 
+  background: #0052d4;
+  background: -webkit-linear-gradient(to bottom, #6fb1fc, #4364f7, #0052d4);
+  background: linear-gradient(to bottom, #6fb1fc, #4364f7, #0052d4);
 
   /* background: #fffc00; 
   background: -webkit-linear-gradient(
@@ -238,12 +228,12 @@ img {
 .login__forms {
   position: relative;
   height: 368px;
-  top: 1rem;
+  top: 2.5rem;
 }
 
 .login__registre,
 .login__create {
-  position:absolute;
+  position: absolute;
   height: auto;
   bottom: 1rem;
   width: 100%;
@@ -416,6 +406,7 @@ img {
   .login__forms {
     width: 348px;
     justify-self: center;
+    top: 2.5rem;
   }
 }
 
@@ -584,7 +575,6 @@ img {
   left: 10px;
   z-index: 100;
 }
-
 
 /* ====dropdown===== */
 
